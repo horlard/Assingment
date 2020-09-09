@@ -1,0 +1,42 @@
+.works_head > p {
+    color: #807f81;
+    font-size: 18px;
+    opacity: 0.6;
+    font-weight: 500;
+}
+.works_head >h2 {
+    color: #020313;
+    font-size: 44px;
+    font-weight: 600;
+}
+.works_head {
+    text-align: center;
+}
+.works_main {
+    text-align: center;
+}
+.works_main > span {
+    color: #020313;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 15px;
+    display: inline-block;
+}
+.works_main>p {
+    color: #020313;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.app>img:not(:last-child) {
+    margin-right: 20px;
+}
+.app {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:614px) {
+    .works_head > h2 {
+        font-size: 29px!important;
+    }
+}

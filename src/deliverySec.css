@@ -1,0 +1,84 @@
+.delivery_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_head {
+    font-size: 44px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 55px;
+}
+.delivery_text {
+    width: 30%;
+    margin-left: 10%;
+}
+.hashtag {
+    color: #807f81;
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.deliveryBoy {
+    width: 38%;
+}
+.deliveryBoy>img {
+    width: 100%;
+}
+.delivery {
+    margin-top: 50px;
+}
+.deliverybtn {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #3dc28f;
+    background-color: #3dc28f;
+    padding:9px 26px;
+    border-radius: 6px;
+    font-size: 14px;
+    
+}
+.qualities {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.text>p {
+    width: 72%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text:not(:last-child) {
+    margin-right: 12.5%;
+}
+
+
+@media only screen and (max-width:920px) {
+    .delivery_head {
+        font-size: 40px;
+
+    }
+    .qualities {
+        margin-top: 30px;
+    }
+    .text>p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:609px) {
+    .delivery_head {
+        font-size: 30px;
+
+    }
+    .qualities {
+        display: block;
+    }
+    .delivery_main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .deliveryBoy {
+        width: 65%;
+    }
+}
